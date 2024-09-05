@@ -54,20 +54,40 @@
             width: 105px;
             border-radius: 3px;
             cursor: pointer;
+            transition: opacity 0.15s;
+        }
+
+        .b1:hover{
+            opacity: 0.6;
+        }
+
+        .b1:active{
+            opacity: 0.4;
         }
 
         .b2{
             background-color: white;
-            border-color: blue;
+            border-color: rgb(41,118,211);
             border-style: solid;
             border-width: 1px;
-            color: blue;
+            color: rgb(41,118,211);
             height: 30px;
             width: 55px;
             border-radius: 2px;
             cursor: pointer;
             margin-left: 5px;
+            transition: background-color 0.5s, color 0.5s, opacity 0.5s;
+
             
+        }
+        
+        .b2:hover{
+            background-color: rgb(41,118,211);;
+            color: white;
+        }
+
+        .b2:active{
+            opacity: 0.5;
         }
 
         .b3{
@@ -81,8 +101,13 @@
             cursor: pointer;
             font-weight: bold;
             font-size: 13px;
+            transition: box-shadow 0.5s;
         }
         
+        .b3:hover{
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+        }
+
         .link{
             color: rgb(0, 113, 113);
         }
