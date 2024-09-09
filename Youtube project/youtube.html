@@ -10,7 +10,7 @@
   </head>
 
    <body style="
-    background-color: #181a1b;
+    background-color: rgba(27, 29, 30, 0.970);
     margin: 0;
     color: white;
     padding-top: 150px;
@@ -18,29 +18,53 @@
   ">
   <div class="headnav"> <!--Header + hori nav bar-->
     <div class="header">
+
       <div class="left-section">
-        <div class="ytlogo"><img src="icons/yt_logo_rgb_dark.png" height="24px"></div>
+      <div class="ytlogo">
+        <div>
+          <div style="position: relative;"><img src="icons/yt_logo_rgb_dark.png" height="24px">
+            <div class="region">MY</div>
+          </div>
+        </div>
+      </div>
       </div>
 
       <div class="center-section">
         <input class="search-bar" type="text" placeholder="Search">
-        <button class="search-button"><img class="sb" src ="icons/search.png" height="24px" ></button>
-        <button class="voice-button"><img src ="icons/mic.png" height="29px"></button>
+          <button class="search-button">
+            <img class="sb" src ="icons/search.png" height="24px" >
+            <div class="tooltip">Search</div>
+          </button>
+        <button class="voice-button">
+          <img src ="icons/mic.png" height="29px">
+          <div class="tooltip">Search with your voice</div>
+        </button>
       </div>
 
       <div class="right-section">
-        <div class="ok"><button class="create-button"><img src ="icons/add.png" height="30px"><span>Create</span></button></div>
-        <div class="notif-popup-div"><button class="notification-button"><img src ="icons/notifications.png" height="29px"></button>
-        <div class="notification-popup">3+</div></div>
-        <button class="mychannel-button"><img class="imgc" src ="channel-pfp/mychannel.jpg" height="40px"></button>
+        <div class="create-button-container">
+          <button class="create-button"><img src ="icons/add.png" height="30px">
+            <div>Create</div>
+          </button>
+        </div>
+        <div class="notif-popup-div">
+          <button class="notification-button">
+            <img src ="icons/notifications.png" height="29px">
+            <div class="notification-popup">3+</div>
+            <div class="tooltip">Notifications</div>
+          </button>
+          
+        </div>
+        <button class="mychannel-button">
+          <img style="border-radius: 30px; margin-right: 20px;" src ="channel-pfp/mychannel.jpg" height="40px">
+        </button>
       </div>
       
     </div>
 
     <div class="nav2-div"></div>
       <div class="nav2">
-        <div><button class="navbut1"><img src="icons/explore.png" height="25px"></button></div>
-        <div><button class="navbut">All</button></div>
+        <div><button class="navbut1">All</button></div>
         <div><button class="navbut">Gaming</button></div>
         <div><button class="navbut">Podcasts</button></div>
         <div><button class="navbut">Source code</button></div>
@@ -53,24 +77,44 @@
         <div><button class="navbut">Developing</button></div>
         <div><button class="navbut">Restaurants</button></div>
         <div><button class="navbut">Coding</button></div>
-        <div><button class="navbut">...</button></div>
+        <div><button class="navbut">Mrbeast</button></div>
       </div>
     </div>
   </div>
     
-    <div> <!--all + navbar-->
+    
+      <!--navbar-->
+      
+      <div class="navbar"> 
+        <div class="navicon1">
+          <a href="homePage.html" target="_blank"><img src="icons/menu.png" height="30px"></a>
+        </div>
 
-      <div class="navbar"> <!--navbar-->
-        <div class="navicon1"><img src="icons/menu.png" height="30px"></div>
-        <div class="navicon"><img src="icons/home.png" height="30px"><div>Home</div></div>
-        <div class="navicon"><img src="icons/vid.png" height="30px"><div>Shorts</div></div>
-        <div class="navicon"><img src="icons/subscriptions.png" height="30px"><div>Subscriptions</div></div>
-        <div class="navicon"><img src="icons/library.png" height="30px"><div>You</div></div>
+        <div class="navicon">
+          <a href="homePage.html" target="_blank">
+          <img src="icons/home.png" height="30px"></a><div>Home</div>
+        </div>
+
+        <div class="navicon">
+          <a href="homePage.html" target="_blank">
+          <img src="icons/vid.png" height="30px"></a><div>Shorts</div>
+        </div>
+
+        <div class="navicon">
+          <a href ="homePage.html" target="_blank">
+          <img src="icons/subscriptions.png" height="30px"></a><div>Subscriptions</div>
+        </div>
+        
+        <div class="navicon">
+          <a href ="homePage.html" target="_blank">
+          <img src="icons/library.png" height="30px"></a><div>You</div>
+        </div>
       </div> 
+
 
       <div class ="all">
         <!--1st full container :-->
-    <div class="video-preview"> <!--Full div container-->
+        <div class="video-preview"> <!--Full div container-->
 
       <div class="thumbnail-container"> <!--Thumbnail container-->
         <img class="thumbnail" src="Thumbnails/thumbnail-1.webp">
@@ -105,7 +149,7 @@
 
       </div>
 
-    </div>
+        </div>
 
         <!--2nd full container :-->
         <div class="video-preview"> <!--Full div container-->
