@@ -1,285 +1,324 @@
-  .header{
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+.header{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
 
-  .left-section{
-    display: flex;
-    align-items: center;
-    flex: 1;
-  }
+.left-section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
 
-  .center-section{
-    flex: 1;
-    margin-left: 100px;
-    display: flex;
-    max-width: 40%;
-    align-items: center;
-    
-  }
-
-  .right-section{
-    display: flex;
-    flex: 1;
-    flex-shrink: 0;
-  }
-
-  .menu{
-    display: flex;
-    margin-left: 35px;
-    margin-right: 15px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-
-  .navbar{
-    background-color: #1b1d1e;
-    color: #ABA499;
-    left: 0;
-    bottom: 0;
-    top: 80px;
-    width: 100px;
-    position: fixed;
-  }
-
-  .navicon{
-    height: 96px;
-    cursor: pointer;
-    transition: background-color 0.9s, color 0.9s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .navicon img{
-    height: 30px;
-    display: flex;
-    margin-bottom: 7px;
-  }
-
-  .navicon div{
-    font-family: Roboto, Arial;
-    font-size: 12px;
-  }
-
-  .navicon:hover{
-    background-color: #2b2d2e;
-    color: #ffffff;
-  }
-
-  .icontext{
-    font-family: Roboto;
-    font-size: 11px;
-    margin-top: 12px;
-    margin-bottom: 0;
-  }
-
-  .dot-title{
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-between
-  }
-
-  .dot-title{
-    cursor: pointer;
-  }
-
-  .ytlogo{
-    display: flex;
-    flex: 1;
-    cursor: pointer;
-    margin-left: 40px;
-    margin-top: 10px;
-  }
-
-  .search-bar{
-    display: flex;
-    flex: 1;
-    height: 40px;
-    background-color: #1b1d1e;
-    padding-left: 20px;
-    font-size: 17px;
-    border-style: solid;
-    border-color: #2b2d2e;
-    border-top-left-radius: 24px ;
-    border-bottom-left-radius: 24px ;
-    width: 0;
-    margin-top: 10px;
-  }
-
-  .search-button{
-    display: flex;
-    background-color: #1b1d1e;
-    border-bottom-right-radius: 24px;
-    border-top-right-radius: 24px;
-    border-color: #2b2d2e;
-    border-style: solid;
-    height: 46px;
-    width: 55px;
-    margin-left: -2px;
-    margin-top: 10px;
-  }
-
-  .sb{
-    padding-top: 7px;
-    padding-left: 7px;
-    cursor: pointer;
-    
-  }
-
-  .voice-button{
-    display: flex;
-    flex-shrink: 0;
-    background: 0;
-    padding: 5px;
-    margin-left: 12px;
-    border: 0;
-    margin-top: 10px;
-    cursor: pointer;
-  }
-
-  .notification-button{
-    background: none;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin-left: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-  }
+.center-section{
+  flex: 1;
+  margin-left: 100px;
+  display: flex;
+  max-width: 40%;
+  align-items: center;
   
-  .notification-popup{
-    position: fixed;
-    background-color: red;
-    color: white;
-    right: 70px;
-    top: 20px;
-    border-radius: 10px;
-    font-size: 12px;
-    height: 15px;
-    width: 15px;
-  }
+}
 
-  .mychannel-button{
-    background: none;
-    border: none;
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-    margin-top: 10px;
-    cursor: pointer;
-  }
+.right-section{
+  display: flex;
+  flex: 1;
+  flex-shrink: 0;
+}
 
-  .imgc{
-    border-radius: 30px;
-  }
+.navbar{
+  background-color: #1b1d1e;
+  color: #ABA499;
+  left: 0;
+  bottom: 0;
+  top: 0px;
+  width: 100px;
+  position: fixed;
+}
 
-  .create-button{
-    display: flex;
-    flex-shrink: 0;
-    border-radius: 30px;
-    width: 110px;
-    height: 40px;
-    align-items: center;
-    background-color: rgb(60, 63, 65);
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-    justify-content: space-between;
-    
-  }
+.navicon{
+  height: 86px;
+  cursor: pointer;
+  transition: background-color 0.9s, color 0.9s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
 
-  .create-button span{
-   color:white;
-   font-size: 17px;
-   font-family: Roboto;
-   padding-right: 10px;
-   font-weight: 500;
-  }
+.navicon1{
+  height: 70px;
+  cursor: pointer;
+  transition: background-color 0.9s, color 0.9s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
 
-  .ok{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: end;
-  }
+.navicon img{
+  height: 30px;
+  display: flex;
+  margin-bottom: 7px;
+}
 
-  .nav2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-  }
+.navicon1 img{
+  height: 30px;
+  display: flex;
+}
 
-  .navbut{
-    display: flex;
-    flex: 1;
-    padding: 10px;
-    background-color: #2b2d2e;
-    border-radius: 10px;
-    border: 0;
-    color: white;
-    font-family: Roboto;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.9s, color 0.9s;
-    flex-shrink: 0;
-    margin-bottom: 10px;
-  }
+.navicon div{
+  font-family: Roboto, Arial;
+  font-size: 12px;
+}
 
-  .navbut1{
-    margin-left: 90px;
-    display: flex;
-    flex: 1;
-    padding: 5px;
-    background-color: #2b2d2e;
-    border-radius: 10px;
-    border: 0;
-    color: white;
-    font-family: Roboto;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.9s, color 0.9s;
-    flex-shrink: 0;
-    margin-bottom: 10px;
-    justify-content: space-between;
-  }
+.navicon:hover{
+  background-color: #2b2d2e;
+  color: #ffffff;
+  border-radius: 10px;
+}
 
-  .navbut:hover{
-    background-color: #ffffff;
-    border-radius: 10px;
-    color: #2b2d2e;
-  }
+.navicon1:hover{
+  background-color: #2b2d2e;
+  color: #ffffff;
+  border-radius: 10px;
+}
 
-  .navbut1:hover{
-    background-color: #ffffff;
-    border-radius: 10px;
-    color: #2b2d2e;
-  }
+.icontext{
+  font-family: Roboto;
+  font-size: 11px;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
 
-  .nav2-div{
-    height: 25px;
-    
-  }
+.dot-title{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between
+}
 
-  input[type="text"] {
-    color: white;
-  }
+.dot-title{
+  cursor: pointer;
+}
 
-  .headnav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #1b1d1e;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
+.ytlogo{
+  display: flex;
+  flex: 1;
+  cursor: pointer;
+  margin-left: 110px;
+  margin-top: 10px;
+}
 
+.search-bar{
+  display: flex;
+  flex: 1;
+  height: 40px;
+  background-color: #1b1d1e;
+  padding-left: 20px;
+  font-size: 17px;
+  border-style: solid;
+  border-color: #2b2d2e;
+  border-top-left-radius: 24px ;
+  border-bottom-left-radius: 24px ;
+  width: 0;
+  margin-top: 10px;
+  transition: border-color 0.9s;
+}
+
+.search-button{
+  display: flex;
+  background-color: #1b1d1e;
+  border-bottom-right-radius: 24px;
+  border-top-right-radius: 24px;
+  border-color: #2b2d2e;
+  border-style: solid;
+  height: 45px;
+  width: 55px;
+  margin-left: -3px;
+  margin-top: 10px;
+}
+
+.sb{
+  padding-top: 7px;
+  padding-left: 7px;
+  cursor: pointer;
+  
+}
+
+.voice-button{
+  display: flex;
+  flex-shrink: 0;
+  background: rgb(44, 46, 47);
+  padding: 7px;
+  margin-left: 12px;
+  border: 0;
+  border-radius: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.9s;
+}
+
+.voice-button:hover{
+  background: rgb(60, 63, 65);
+}
+
+.notification-button{
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.9s;
+}
+
+.notification-button:hover{
+  background-color: rgb(60, 63, 65);
+  border: 0;
+}
+
+.notification-popup{
+  position: fixed;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  background-color: red;
+  color: black;
+  right: 68px;
+  top: 21px;
+  width: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.mychannel-button{
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.imgc{
+  border-radius: 30px;
+}
+
+.create-button{
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 30px;
+  width: 110px;
+  height: 40px;
+  align-items: center;
+  background-color: rgb(44, 46, 47);
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  justify-content: space-between;
+  transition: background-color 0.9s;
+}
+
+.create-button:hover{
+  background-color: rgb(60, 63, 65);
+}
+
+.create-button span{
+ color:white;
+ font-size: 17px;
+ font-family: Roboto;
+ padding-right: 10px;
+ font-weight: 500;
+}
+
+.ok{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: end;
+}
+
+.nav2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navbut{
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  background-color: #2b2d2e;
+  border: 0;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.9s, color 0.9s, border-radius 0.9s;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  
+}
+
+.navbut1{
+  margin-left: 90px;
+  display: flex;
+  flex: 1;
+  padding: 6px;
+  background-color: #2b2d2e;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.9s, color 0.9s, border-radius 0.9s, opacity 0.5s;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.navbut:hover{
+  background-color: #ffffff;
+  color: #2b2d2e;
+  margin-bottom: 10px;
+}
+
+.navbut1:hover{
+  opacity: 0.5;
+}
+
+.nav2-div{
+  height: 25px;
+}
+
+input[type="text"] {
+  color: white;
+}
+
+.headnav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #1b1d1e;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-color: #444748 ;
+}
