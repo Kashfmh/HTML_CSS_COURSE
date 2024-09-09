@@ -152,6 +152,18 @@
     margin-top: 10px;
     cursor: pointer;
   }
+  
+  .notification-popup{
+    position: fixed;
+    background-color: red;
+    color: white;
+    right: 70px;
+    top: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    height: 15px;
+    width: 15px;
+  }
 
   .mychannel-button{
     background: none;
@@ -182,13 +194,12 @@
     
   }
 
-  .createtext{
+  .create-button span{
    color:white;
    font-size: 17px;
    font-family: Roboto;
    padding-right: 10px;
    font-weight: 500;
-   
   }
 
   .ok{
@@ -207,6 +218,7 @@
 
   .navbut{
     display: flex;
+    flex: 1;
     padding: 10px;
     background-color: #2b2d2e;
     border-radius: 10px;
@@ -221,9 +233,10 @@
   }
 
   .navbut1{
-    margin-left: 95px;
+    margin-left: 90px;
     display: flex;
-    padding: 10px;
+    flex: 1;
+    padding: 5px;
     background-color: #2b2d2e;
     border-radius: 10px;
     border: 0;
@@ -233,6 +246,8 @@
     cursor: pointer;
     transition: background-color 0.9s, color 0.9s;
     flex-shrink: 0;
+    margin-bottom: 10px;
+    justify-content: space-between;
   }
 
   .navbut:hover{
