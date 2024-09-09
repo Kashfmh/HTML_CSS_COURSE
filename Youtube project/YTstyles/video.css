@@ -6,11 +6,11 @@
 }
 
 .time{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.623);
   color: white;
   position: absolute;
-  bottom: 3px;
-  right: 7px;
+  bottom: 6px;
+  right: 10px;
   font-family: Roboto, Arial;
   font-size: 12px;
   border-radius: 3px;

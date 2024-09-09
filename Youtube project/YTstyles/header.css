@@ -185,13 +185,13 @@
 }
 
 .notification-popup{
-  position: fixed;
+  position: absolute;
   font-family: Roboto, Arial;
   font-size: 12px;
   background-color: red;
   color: black;
-  right: 68px;
-  top: 21px;
+  left: 39px;
+  top: 22px;
   width: 20px;
   border-radius: 10px;
   text-align: center;
@@ -201,6 +201,11 @@
   border-color: black;
   padding-left: 1px;
   padding-right: 1px;
+}
+
+.notif-popup-div{
+  display: flex;
+  position: relative;
 }
 
 .mychannel-button{
@@ -215,6 +220,7 @@
 
 .imgc{
   border-radius: 30px;
+  position: relative;
 }
 
 .create-button{
